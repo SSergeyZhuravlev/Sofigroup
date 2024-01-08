@@ -11,8 +11,8 @@ html {
 @font-face {
     font-family: 'Montserrat';
     src: 
-         url('/src/assets/fonts/MontserratRegular.woff2') format('woff2'),
-         url('/src/assets/fonts/MontserratRegular.woff') format('woff');
+         url('../assets/fonts/MontserratRegular.woff2') format('woff2'),
+         url('../assets/fonts/MontserratRegular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -21,8 +21,8 @@ html {
 @font-face {
     font-family: 'Montserrat';
     src: 
-         url('/src/assets/fonts/MontserratMedium.woff2') format('woff2'),
-         url('/src/assets/fonts/MontserratMedium.woff') format('woff');
+         url('../assets/fonts/MontserratMedium.woff2') format('woff2'),
+         url('../assets/fonts/MontserratMedium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -31,8 +31,8 @@ html {
 @font-face {
     font-family: 'Montserrat';
     src: 
-         url('/src/assets/fonts/MontserratExtraBold.woff2') format('woff2'),
-         url('/src/assets/fonts/MontserratExtraBold.woff') format('woff');
+         url('../assets/fonts/MontserratExtraBold.woff2') format('woff2'),
+         url('../assets/fonts/MontserratExtraBold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -87,7 +87,7 @@ p {
     width: 100%;
     min-height: 500px;
     padding-top: 30px;
-    background-image: linear-gradient(to bottom, transparent, transparent, rgb(128, 128, 128)), linear-gradient(to right, rgb(128, 128, 128), rgba(128, 128, 128, 0.436), rgb(128, 128, 128)), url(/src/assets/header-background-img.jpeg);
+    background-image: linear-gradient(to bottom, transparent, transparent, rgb(128, 128, 128)), linear-gradient(to right, rgb(128, 128, 128), rgba(128, 128, 128, 0.436), rgb(128, 128, 128)), url(../assets/header-background-img.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
