@@ -220,8 +220,16 @@
         font-size: 14px;
     }
 
+    .footer__container {
+        padding-right: 30px;
+    }
+
     .tels-wrapper {
         display: flex;
         flex-direction: column;
+    }
+
+    .phone span {
+        font-size: 14px;
     }
 }
