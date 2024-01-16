@@ -1,0 +1,227 @@
+@media (max-width: 1840px) {
+    .container {
+        padding: 0 200px;
+    }
+
+    .header__logo svg {
+        max-width: 280px;
+        height: 180px;
+    }
+
+    .header__descr__text {
+        font-size: 16px;
+    }
+
+    .works__list__item__text {
+        font-size: 16px;
+    }
+
+    .works__list__item__text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .container {
+        padding: 0 100px;
+    }
+
+    .header__logo svg {
+        max-width: 250px;
+        height: 140px;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        padding: 30px;
+    }
+
+    .swiper-button-next::after, .swiper-button-prev::after {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1281px) {
+    .container {
+        padding: 0 50px;
+    }
+
+    .header {
+        min-height: 460px;
+    }
+
+    .header__logo svg {
+        max-width: 250px;
+        height: 140px;
+    }
+
+    .header__title {
+        font-size: 32px;
+    }
+    
+    .descr__wrapper {
+        padding: 10px 19px;
+    }
+
+    .header__descr__text {
+        font-size: 14px;
+    }
+
+    .sofigroup-works-with__title {
+        font-size: 32px;
+    }
+
+    .works__list__item__text {
+        font-size: 14px;
+    }
+
+    .swiper {
+        max-width: 50vw;
+    }
+    
+    .sofigroup__quality__descr {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    .section-block {
+        margin-bottom: 20px;
+    }
+
+    .header {
+        min-height: 370px;
+    }
+
+    .header__logo svg {
+        max-width: 200px;
+        height: 120px;
+    }
+
+    .header__title {
+        font-size: 26px;
+    }
+
+    .descr__wrapper {
+        padding: 10px 10px;
+        margin-bottom: 25px;
+    }
+
+    .header__descr__text {
+        font-size: 11px;
+    }
+
+    .sofigroup-works-with__title {
+        font-size: 26px;
+    }
+
+    .works__list {
+        padding-top: 20px;
+    }
+
+    .works__list__item__text {
+        font-size: 11px;
+    }
+
+    .sofigroup__examples__title {
+        font-size: 26px;
+    }
+
+    .swiper {
+        padding: 20px 0;
+    }
+
+    .sofigroup__quality__descr {
+        padding-bottom: 20px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .sofigroup-works-with__title {
+        font-size: 20px;
+    }
+
+    .works__list {
+        padding: 20px 10px;
+    }
+
+    .works__list__item__marker {
+        width: 16px;
+        height: 16px;
+    }
+
+    .sofigroup__examples__title {
+        font-size: 20px;
+    }
+
+    .swiper {
+        max-width: 70vw;
+    }
+
+    .social__link svg {
+        width: 70px;
+        height:70px;
+    }
+}
+
+@media (max-width: 540px) {
+    .header__logo svg {
+        max-width: 180px;
+        height: 90px;
+    }
+
+    .header__title {
+        font-size: 18px;
+    }
+
+    .sofigroup-works-with__title {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .works__list {
+        width: 70%;
+        padding: 20px 5px;
+    }
+
+    .works__list__item__marker {
+        display: none;
+        z-index: -1;
+        visibility: hidden;
+    }
+
+    .works__list__item__text {
+        font-size: 10px;
+    }
+
+    .sofigroup__examples__title {
+        font-size: 18px;
+    }
+
+    .swiper {
+        max-width: 90vw;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+        height: 100%;
+        min-height: 400px;
+    }
+
+    .sofigroup__quality__descr {
+        font-size: 14px;
+    }
+
+    .tels-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}

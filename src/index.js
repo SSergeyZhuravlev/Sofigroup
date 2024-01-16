@@ -5,8 +5,8 @@ const swiper = new Swiper('.swiper', {
       delay: 2000,
     },
 
-    slidesPerView: 2,
-    spaceBetween: 30,
+    slidesPerView: 1,
+    // spaceBetween: 30,
   
     navigation: {
       nextEl: '.swiper-button-next',
