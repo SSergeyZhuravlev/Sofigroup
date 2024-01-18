@@ -225,8 +225,12 @@
     }
 
     .tels-wrapper {
-        display: flex;
         flex-direction: column;
+    }
+
+    .phone {
+        justify-content: center;
+        align-items: center;
     }
 
     .phone span {
