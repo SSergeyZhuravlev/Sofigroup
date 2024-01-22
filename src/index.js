@@ -6,7 +6,11 @@ const swiper = new Swiper('.swiper', {
     },
 
     slidesPerView: 1,
-    // spaceBetween: 30,
+    
+    keyboard: {
+      enabled: true,
+      onlyInViewport: false,
+    },
   
     navigation: {
       nextEl: '.swiper-button-next',
